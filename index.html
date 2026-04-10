@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VideoTube</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="topbar-left">
+        <button class="icon-btn" aria-label="菜单">☰</button>
+        <div class="logo-wrap" aria-label="VideoTube">
+          <span class="logo-mark">▶</span>
+          <span class="logo-text">VideoTube</span>
+        </div>
+      </div>
+      <div class="search-wrap">
+        <input type="text" placeholder="搜索视频" />
+        <button class="search-btn" aria-label="搜索">🔍</button>
+      </div>
+      <div class="topbar-right">
+        <button class="icon-btn" aria-label="上传">⤴</button>
+        <button class="icon-btn" aria-label="通知">🔔</button>
+        <div class="avatar">U</div>
+      </div>
+    </header>
+
+    <div class="layout">
+      <aside class="sidebar">
+        <a href="#" class="active">🏠 首页</a>
+        <a href="#">🔥 热门</a>
+        <a href="#">📺 订阅</a>
+        <a href="#">🎵 音乐</a>
+        <a href="#">🎮 游戏</a>
+      </aside>
+
+      <main class="feed">
+        <section class="chips">
+          <button class="chip active">全部</button>
+          <button class="chip">直播</button>
+          <button class="chip">编程</button>
+          <button class="chip">数码</button>
+          <button class="chip">电影</button>
+          <button class="chip">学习</button>
+        </section>
+
+        <section class="video-grid">
+          <article class="video-card">
+            <div class="thumb grad-1"><span>16:42</span></div>
+            <h3>零基础做出你的第一个前端页面</h3>
+            <p>CodeLab · 12万次观看 · 2天前</p>
+          </article>
+          <article class="video-card">
+            <div class="thumb grad-2"><span>08:21</span></div>
+            <h3>2026 必看的开发效率工具</h3>
+            <p>DevTalk · 8.5万次观看 · 1周前</p>
+          </article>
+          <article class="video-card">
+            <div class="thumb grad-3"><span>24:03</span></div>
+            <h3>CSS 动画从入门到上头</h3>
+            <p>DesignHub · 4.1万次观看 · 3天前</p>
+          </article>
+          <article class="video-card">
+            <div class="thumb grad-4"><span>12:55</span></div>
+            <h3>键盘党最爱的 VS Code 快捷键</h3>
+            <p>GeekFlow · 6.7万次观看 · 5天前</p>
+          </article>
+          <article class="video-card">
+            <div class="thumb grad-5"><span>31:09</span></div>
+            <h3>跟着做：响应式布局实战</h3>
+            <p>Frontend Pro · 9.3万次观看 · 4天前</p>
+          </article>
+          <article class="video-card">
+            <div class="thumb grad-6"><span>05:14</span></div>
+            <h3>为什么大家都在学 TypeScript？</h3>
+            <p>TechNow · 3.8万次观看 · 1天前</p>
+          </article>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
