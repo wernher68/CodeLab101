@@ -2,6 +2,13 @@
 
 ## 一键打开页面（推荐）
 
+### 双击即开（无需命令）
+
+- Windows：双击 `open.bat`
+- macOS / Linux：双击 `open.command`（若系统提示权限，先执行一次 `chmod +x open.command`）
+
+以上脚本会直接在默认浏览器打开 `index.html`。
+
 如果你不想频繁手动操作，直接在仓库根目录执行：
 
 ```bash
