@@ -1,5 +1,31 @@
 # CodeLab101
 
+## 一键打开页面（推荐）
+
+### 双击即开（无需命令）
+
+- Windows：双击 `open.bat`
+- macOS / Linux：双击 `open.command`（若系统提示权限，先执行一次 `chmod +x open.command`）
+
+以上脚本会直接在默认浏览器打开 `index.html`。
+
+如果你不想频繁手动操作，直接在仓库根目录执行：
+
+```bash
+./start.sh
+```
+
+脚本会自动：
+- 启动本地静态服务器（默认优先 8000 端口，若占用会自动换端口）
+- 自动打开浏览器访问 `index.html`
+
+可选：
+
+```bash
+python3 start.py --no-browser
+python3 start.py --port 9000
+```
+
 ## 项目现状（给新人的一眼总览）
 
 当前仓库处于**初始化阶段**，核心事实如下：
